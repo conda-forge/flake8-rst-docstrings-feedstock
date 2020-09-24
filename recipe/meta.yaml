@@ -1,6 +1,6 @@
 {% set name = "flake8-rst-docstrings" %}
-{% set version = "0.0.13" %}
-{% set sha256 = "b1b619d81d879b874533973ac04ee5d823fdbe8c9f3701bfe802bb41813997b4" %}
+{% set version = "0.0.14" %}
+{% set sha256 = "8f8bcb18f1408b506dd8ba2c99af3eac6128f6911d4bf6ff874b94caa70182a2" %}
 
 package:
   name: {{ name|lower }}
@@ -27,14 +27,14 @@ requirements:
 
 test:
   commands:
-    - "flake8 --version | grep rst-docstrings:"
+    - 'flake8 --version | grep rst-docstrings:'
 
 about:
   home: https://github.com/peterjc/flake8-rst-docstrings
   license: MIT
   license_family: MIT
   license_file: LICENSE.rst
-  summary: 'Extension for flake8 for validating Python docstrings as reStructuredText'
+  summary: Extension for flake8 for validating Python docstrings as reStructuredText
   dev_url: https://github.com/peterjc/flake8-rst-docstrings
   description: |
     This is a flake8 plugin for validating Python docstrings markup as reStructuredText
