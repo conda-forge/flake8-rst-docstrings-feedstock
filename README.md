@@ -5,9 +5,11 @@ Home: https://github.com/peterjc/flake8-rst-docstrings
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-rst-docstrings-feedstock/blob/master/LICENSE.txt)
 
 Summary: Extension for flake8 for validating Python docstrings as reStructuredText
+
+Development: https://github.com/peterjc/flake8-rst-docstrings
 
 This is a flake8 plugin for validating Python docstrings markup as reStructuredText
 (RST) using the Python library docutils, called via Todd Wolfson's package
@@ -41,6 +43,7 @@ Installing `flake8-rst-docstrings` from the `conda-forge` channel can be achieve
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `flake8-rst-docstrings` can be installed with:
@@ -111,9 +114,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
