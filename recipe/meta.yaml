@@ -18,12 +18,14 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.3
     - pip
   run:
-    - python
+    - python >=3.3
     - flake8 >=3
     - restructuredtext_lint
+    - pydocstyle >=3.0.0
+    - pygments
 
 test:
   commands:
