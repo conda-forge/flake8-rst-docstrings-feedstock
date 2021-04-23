@@ -1,6 +1,6 @@
 {% set name = "flake8-rst-docstrings" %}
-{% set version = "0.1.2" %}
-{% set sha256 = "7d34d2175a0cd92aba0872ade74268b2f2c12582c7267d4a0e6ef1c32a828ce3" %}
+{% set version = "0.2.1" %}
+{% set sha256 = "1617d1dcdb31675d24fd8ff8e5d7932e449a4518dcc1365e50beceb86d658e7f" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - python >=3.3
     - flake8 >=3
     - restructuredtext_lint
-    - pydocstyle >=3.0.0
+    - docutils
     - pygments
 
 test:
