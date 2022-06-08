@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.3
+    - python >=3.7
     - pip
   run:
-    - python >=3.3
+    - python >=3.7
     - flake8 >=3
     - restructuredtext_lint
     - docutils
