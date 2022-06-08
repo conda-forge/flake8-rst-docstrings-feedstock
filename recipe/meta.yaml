@@ -1,6 +1,6 @@
 {% set name = "flake8-rst-docstrings" %}
-{% set version = "0.2.5" %}
-{% set sha256 = "4fe93f997dea45d9d3c8bd220f12f0b6c359948fb943b5b48021a3f927edd816" %}
+{% set version = "0.2.6" %}
+{% set sha256 = "7d9526a264a1c2827b3408ea5f921f12ee0689ac123fecfa95744988aea02e6c" %}
 
 package:
   name: {{ name|lower }}
@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python >=3.3
+    - python >=3.7
     - pip
   run:
-    - python >=3.3
+    - python >=3.7
     - flake8 >=3
     - restructuredtext_lint
     - docutils
