@@ -1,6 +1,6 @@
 {% set name = "flake8-rst-docstrings" %}
-{% set version = "0.2.6" %}
-{% set sha256 = "7d9526a264a1c2827b3408ea5f921f12ee0689ac123fecfa95744988aea02e6c" %}
+{% set version = "0.2.7" %}
+{% set sha256 = "2740067ab9237559dd45a3434d8c987792c7b259ca563621a3b95efe201f5382" %}
 
 package:
   name: {{ name|lower }}
